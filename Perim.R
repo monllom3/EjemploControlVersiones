@@ -12,3 +12,8 @@ longitud_circunferencia <- function(radio) {
 perimetro_rectangulo <- function(largo, ancho) {
   2 * (largo + ancho)
 }
+
+# Perímetro del triángulo
+perimetro_triangulo <- function(lado1, lado2, lado3) {
+  lado1 + lado2 + lado3
+}
