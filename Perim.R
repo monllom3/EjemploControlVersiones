@@ -1,4 +1,4 @@
-# Perimetro del cuadrado
+# Perímetro del cuadrado
 perimetro_cuadrado <- function(lado) {
   4 * lado
 }
@@ -8,7 +8,7 @@ longitud_circunferencia <- function(radio) {
   2 * pi * radio
 }
 
-# Perimetro del rectángulo
+# Perímetro del rectángulo
 perimetro_rectangulo <- function(largo, ancho) {
   2 * (largo + ancho)
 }

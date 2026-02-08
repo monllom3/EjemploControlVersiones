@@ -1,7 +1,7 @@
 ---
-title: "Cálculo de áreas"
+title: "Áreas"
 author: "monllom3"
-date: "2026-02-05"
+date: "2026-02-08"
 output: html_document
 ---
 
@@ -15,19 +15,12 @@ print(area_circulo(5))
 
 ```
 
-## Área del triángulo
+#Area del Triángulo
+
 ```{r}
 area_triangulo <- function(base, altura) {
   0.5 * base * altura
 }
 print(area_triangulo(10, 5))
-```
 
-## Área del rectángulo
-```{r}
-area_rectangulo <- function(base, altura) {
-  base * altura
-}
-print(area_rectangulo(6, 3))
 ```
-
